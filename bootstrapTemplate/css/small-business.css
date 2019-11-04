@@ -5,4 +5,52 @@
  */
 body {
   padding-top: 40px;
+  background-image: url("../images/uploadabletable1.jpg");
+}
+#logo {
+  border: 0.7em solid orangered;
+}
+#logoBB {
+  border: 0.7em solid orange;
+}
+#logoTD {
+  border: 0.7em solid red;
+}
+#logoMH {
+  border: 0.7em solid green;
+}
+#logoMSG {
+  border: 0.7em solid blue;
+}
+#logoTG {
+  border: 0.7em solid yellow;
+}
+.card-title{
+  text-align: center;
+  color: white;
+}
+.card{
+  background-color: rgb(34, 34, 34);
+  border-width: 0.5em;
+}
+.card-text {
+  color: white;
+}
+.card-footer {
+  display: none;
+}
+#bulletinBoard {
+  border-color: orange;
+}
+#toDo {
+  border-color: red;
+}
+#machineHistory {
+  border-color: green;
+}
+#messaging {
+  border-color: blue;
+}
+#toGet {
+  border-color: yellow;
 }
