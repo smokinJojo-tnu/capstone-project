@@ -5,10 +5,10 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="This page will link user to the machine history database for the Maintenance Tracker">
+  <meta name="author" content="Jody Riley">
 
-  <title>The Bulletin Board Index Page</title>
+  <title>The Machine History Page</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Maintenance Tracker</a>
+      <a class="navbar-brand" href="index.html">Maintenance Tracker</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -86,27 +86,56 @@
         <!-- </div> -->
         <!-- </div> -->
         <div class="row">
-            <div class="col-md-6 mb-4">
-              <div class="card h-100" id="machineHistory">
-                      <div class="card-body">
-                        <h2 class="card-title"><i class="fas fa-cog"></i> Process</h2>
-                        <!-- <p class="card-text"></p> -->
-                      </div>
-                      <div class="card-footer">
-                        <a href="#" class="btn btn-primary btn-sm">Go</a>
-                      </div>
-              </div>
+          <div class="col-md-6 mb-4">            
+            <div class="card h-100" id="machineHistory">
+              <div class="form-group">
+                <div class="card-body">
+                  <label for="processSelect">
+                    <h2 class="card-title"><i class="fas fa-cog"></i> Process</h2>
+                    <!-- <p class="card-text"></p> -->
+                  </label>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-primary btn-sm">Go</a>
+                </div>                  
+                <select class="form-control" id="processSelect">
+                  <option>Please Select Process</option>
+                  <option>Compressed Air System</option>
+                  <option>Dionized Water System</option>
+                  <option>Chilled Water System</option>
+                  <option>Hot Water System</option>
+                  <option>Cooling Tower System</option>
+                  <option>Process Fluids System</option>
+                  <option>Wastewater Treatment System</option>
+                </select>                
+              </div>                  
             </div>
+          </div>
             <!-- /.col-md-6 -->
-            <div class="col-md-6 mb-4">
-              <div class="card h-100" id="machineHistory">
-                  <div class="card-body">
+          <div class="col-md-6 mb-4">
+            <div class="card h-100" id="machineHistory">
+              <div class="form-group">  
+                <div class="card-body">
+                  <label for="machineSelect">
                     <h2 class="card-title"><i class="fab fa-steam"></i> Machine</h2>
                     <!-- <p class="card-text"></p> -->
-                  </div>
-                  <div class="card-footer">
-                    <a href="#" class="btn btn-primary btn-sm">Go</a>
-                  </div>
+                  </label>  
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-primary btn-sm">Go</a>
+                </div>
+                <select class="form-control" id="machineSelect">
+                  <option>Please Select Machine</option>
+                  <option>Compressor 1</option>
+                  <option>Compressor 2</option>
+                  <option>Compressor 3</option>
+                  <option>Compressor 4</option>
+                  <option>Compressor 5</option>
+                  <option>Compressor 6</option>
+                  <option>Compressor 7</option>
+                  <option>Compressor 8</option>
+                  <option>Compressor 9</option>
+                </select>
               </div>
             </div>
             <!-- /.col-md-6 -->
